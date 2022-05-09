@@ -1,0 +1,36 @@
+.cartCard {
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(252, 239, 229);
+  border-radius: 8px;
+}
+
+.cartCard img {
+  width: 20%;
+  height: 30%;
+  margin-left: 5px;
+}
+
+.cartCard h2,
+h3 {
+  font-size: 12px;
+}
+
+.cartCard h2 {
+  font-weight: bold;
+}
+
+.cartCard button {
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(164, 221, 235);
+  padding: 7px;
+  cursor: pointer;
+}
+
+.cartCard button:hover {
+  border: 1px solid black;
+}

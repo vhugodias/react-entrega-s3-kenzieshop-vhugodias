@@ -1,0 +1,50 @@
+.cardContainer {
+  width: 60%;
+  height: 65vh;
+  background-color: rgb(252, 239, 229);
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cardContainer img {
+  width: 130px;
+  height: 200px;
+}
+
+.cardContainer h2 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.author {
+  margin-top: -15px;
+  font-size: 12px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.cardContainer button {
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(164, 221, 235);
+  padding: 20px;
+  cursor: pointer;
+}
+
+.cardContainer button:hover {
+  border: 1px solid black;
+}
+
+@media only screen and (min-width: 800px) {
+  .cardContainer {
+    width: 450px;
+    height: 500px;
+  }
+}

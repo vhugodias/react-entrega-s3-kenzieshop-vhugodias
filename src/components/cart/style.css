@@ -1,0 +1,63 @@
+.cartInfo-Empty {
+  margin-top: 100px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.totalMoney {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  align-items: center;
+  background-color: rgb(252, 239, 229);
+  justify-content: space-around;
+}
+
+.totalMoney h3 {
+  font-weight: bold;
+}
+
+.totalMoney p {
+  font-size: 12px;
+}
+
+.totalMoney-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.totalMoney button {
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(164, 221, 235);
+  padding: 7px;
+  cursor: pointer;
+}
+
+.totalMoney button:hover {
+  border: 1px solid black;
+}
+
+@media only screen and (min-width: 800px) {
+  .cartContainer {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .cartInfo {
+    margin-left: 25px;
+    width: 45%;
+  }
+
+  .totalMoney {
+    width: 400px;
+    height: 200px;
+    margin-left: 100px;
+    border-radius: 8px;
+  }
+}
